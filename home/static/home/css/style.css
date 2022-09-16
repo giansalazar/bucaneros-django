@@ -1,0 +1,570 @@
+@font-face {
+    font-family: tamil;
+    src: url('../fonts/tamil-mn.otf')
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    color: #787574;
+    font-family: tamil;
+}
+
+.nav_covid{
+    display: block;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    background-color: white;
+    border-bottom: 1px solid #efecea;
+}
+
+footer{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden !important;
+}
+.img-footer{
+    width: 10rem;
+}
+
+
+.card_text_center{
+    margin: auto;
+    text-align: center;
+    color: #333;
+}
+
+.card_text_fontsize{
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit;
+}
+
+.card_text_fontsize:hover{
+    color: #333;
+}
+
+.home_faqs_faqs{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:url('../img/13.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: tamil;
+}
+
+.home_faqs{
+    width: 100%;
+    color: #6d6b6a;
+    margin-bottom: 10vh;
+    overflow: hidden;
+}
+
+
+.home_faqs h1{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.home_faqs h4{
+    text-align: center;
+}
+
+.text_faqs{
+    font-size:7vh;
+    white-space: pre;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position:absolute;
+    background-color: hsla(0,0%,100%,.6);
+    padding: 0 3%;
+    font-family: tamil;
+    text-shadow: 1px 1px 1px rgb(109 107 106 / 95%);
+    line-height: 1.23em;
+    left: 50%;
+    top: 45%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    height: 70px;
+}
+
+.faqs_info{
+    width: 90%;
+    margin: auto auto;
+    margin-bottom: 25vh;
+    padding: 70px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: tamil;
+    color: #6d6b6a;
+}
+
+.faqs_info h1{
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    line-height: 1.5em;
+    color: #6d6b6a;
+    font-size: 4.5vh;
+    font-weight: 100;
+    text-align: center;
+}
+
+.faqs_info h2{
+    font-size: 3.5vh;
+    line-height: 1.5em;
+    color: #6d6b6a;
+    text-align: left;
+}
+
+.accordion-body p{
+    text-align: justify;
+    color: #6d6b6a;
+}
+
+.logo_bucaneros_footer{
+    text-align: center;
+    margin-top: 7vh;
+}
+
+.logo_bucaneros_footer img{
+    width: 8rem;
+    margin-bottom: 10vh;
+}
+
+.banner_medidas{
+    height: 220px;
+    background-color: #333;
+}
+
+.banner_medidas h1{
+    margin: auto;
+}
+
+.banner_medidas p{
+    margin: auto;
+}
+
+
+.navbar img{
+    width: 3rem;
+}
+
+.carousel{
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel-item img{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    background: rgba(3, 2, 2, 0.7);
+    color: white;
+}
+
+.btn-prev{
+    align-items: center;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #333;
+    border-radius: 50px;
+}
+
+.btn-prev p{
+    margin: auto auto;
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size: 3rem;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: #787574;
+}
+
+.contenedor-bucaneros{
+    height: 100%;
+}
+
+.img-home{
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+.img-home img{
+    width: 100%;
+}
+
+.info-home{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: -10vh;
+    background-color: #e5e8eb;
+}
+
+.info-home p{
+    padding:20px;
+    text-align:justify;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.home_habitaciones{
+    width: 100%;
+    color: #6d6b6a;
+    padding: 10px;
+}
+
+.home_habitaciones h1{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.home_habitaciones p{
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.cards_habitaciones{
+    margin: auto auto;
+    margin-top: 10vh;
+}
+
+.home_contactanos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:url('../img/14.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: tamil;
+}
+
+#info-contacto{
+    margin-top: 5vh;
+    background-color: #efecea;
+    color: #6d6b6a;
+    padding: 50px;
+    text-align: left;
+}
+
+#info-whatsapp{
+    margin-top: 5vh;
+    background-color: #ffffff;
+    color: #6d6b6a;
+    border: 1px solid rgb(215, 210, 210);
+    padding: 50px;
+    text-align: center;
+}
+
+#info-whatsapp a{
+    background-color: white;
+    border-color: #333;
+    color: #333;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#info-whatsapp a:hover{
+    background-color: rgb(25, 187, 25);
+    border-color: rgb(25, 187, 25);
+    color: white;
+    text-align: center;
+}
+
+#info-contacto i{
+    margin-right: 1vh;
+}
+
+#info-contacto li{
+    margin-bottom: 3vh;
+}
+
+#info-contacto p{
+    display: inline;
+
+}
+
+#info-contacto div{
+    margin-bottom: 2vh;
+
+}
+
+.home_reservaciones{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:url('../img/1.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: tamil;
+}
+
+.swiper{
+    width: 85%;
+    margin-bottom: 10vh;
+}
+
+.swiper-wrapper{
+    margin-top: 5vh;
+}
+
+.swiper-slide{
+    padding: 10px 10px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='77' height='107' viewBox='0 0 77 107'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='stamp-collection' fill='%239d9d9d' fill-opacity='0.4'%3E%3Cpath d='M46 101a5 5 0 0 1 5 5h5a5 5 0 0 1 10 0h5a5 5 0 0 1 5-5v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10V6a5 5 0 0 1-5-5h-5a5 5 0 0 1-10 0h-5a5 5 0 0 1-10 0h-5a5 5 0 0 1-10 0h-5a5 5 0 0 1-10 0H6a5 5 0 0 1-5 5v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 5 5h5a5 5 0 0 1 10 0h5a5 5 0 0 1 10 0h5a5 5 0 0 1 5-5zm15-2a7 7 0 0 0-6.71 5h-1.58a7 7 0 0 0-13.42 0h-1.58a7 7 0 0 0-13.42 0h-1.58a7 7 0 0 0-13.42 0H7.71A7.01 7.01 0 0 0 3 99.29v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58A7 7 0 0 0 3 9.29V7.71A7.02 7.02 0 0 0 7.71 3h1.58a7 7 0 0 0 13.42 0h1.58a7 7 0 0 0 13.42 0h1.58a7 7 0 0 0 13.42 0h1.58a7 7 0 0 0 13.42 0h1.58A7.02 7.02 0 0 0 74 7.71v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7.01 7.01 0 0 0-4.71 4.71h-1.58A7 7 0 0 0 61 99zM12 12h53v83H12V12zm51 81H14V14h49v79z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#swiper-areas{
+    background-color: #ffffff;
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%239a9a9a' fill-opacity='0.4' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+.swiper-button-next , .swiper-button-prev{
+    color: #333 !important;
+}
+
+.card{
+    margin: auto auto;
+    text-align: center;
+    border-radius: 0 !important;
+}
+
+.card img{
+    border-radius: 0 !important;
+}
+
+.btn-primary{
+    background-color: white;
+    border:1px solid #333;
+    color: #333;
+}
+
+.btn-primary:hover{
+    background-color: #6d6b6a;
+    color: white;
+    border-color: #6d6b6a;
+}
+
+#card-img-areas{
+    height: 18rem !important;
+    object-fit: cover;
+}
+
+.localizacion{
+    margin-bottom: 10vh;
+}
+
+.home_albercas{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:url('../img/albercas.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: tamil;
+}
+
+.p_albercas{
+    padding: 0px 150px !important;
+}
+
+#img-card-albercas{
+    width: 100%;
+    height: 12rem;
+}
+
+#swiper-albercas{
+    margin-bottom: 5vh;
+}
+
+#swiper-alberca{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23aeaeae' fill-opacity='0.4' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+#swiper-alberca h5{
+    background-color: rgb(31, 140, 195);
+    color: white;
+}
+
+
+.home_areas{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:url('../img/areasverdes.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: tamil;
+}
+
+#swiper-area{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%239a9a9a' fill-opacity='0.4' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+#swiper-area h5{
+    background-color: rgb(29, 134, 43);
+    color: white;
+}
+
+
+@media (max-width: 1250px){
+
+    .text_faqs{
+        font-size: 4rem;
+        white-space:pre;
+        height: 40px;
+    }
+
+    .faqs_info{
+        padding: 30px;
+    }
+
+    .faqs_info h1{
+        font-size: 2.5vh;
+    }
+
+    .faqs_info h2{
+        font-size: 2vh;
+    }
+
+    .text_faqs{
+        height: 130px;
+    }
+
+    .img-home{
+        margin-top: 5vh;
+        margin-left: 0;
+    }
+
+    .carousel-caption{
+        background: rgba(3, 2, 2, 0.7);
+    }
+
+    .info-home{
+        margin-top: 1vh;
+        margin-left: 0;
+        background-color: #e5e8eb;
+        margin-bottom: 0;
+    }
+
+    .home_faqs{
+        margin-bottom: 5vh;
+    }
+}
+
+@media (max-width: 768px){
+
+    .nav-item{
+        margin: auto;
+    }
+
+    .nav-link{
+        margin-right: 0;
+    }
+
+    .col-md-4{
+        width: 100%;
+    }
+
+    .img-footer{
+        width: 5rem;
+    }
+
+    .img-home{
+        margin-top: 5vh;
+        margin-left: 0;
+    }
+
+    .carousel-caption{
+        background: rgba(3, 2, 2, 0.7);
+    }
+
+    .info-home{
+        margin-top: 1vh;
+        margin-left: 0;
+        background-color: #e5e8eb;
+        margin-bottom: 0;
+    }
+
+    .info-home p {
+        padding: 20px;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .home_faqs{
+        margin-bottom: 5vh;
+    }
+
+
+    .text_faqs{
+        font-size: 1.6rem;
+        white-space:pre;
+        height: 45px;
+    }
+
+    .faqs_info h1{
+        font-size: 3vh;
+        white-space:initial;
+        height: 75px;
+    }
+
+    .faqs_info h2{
+        font-size: 2.5vh;
+    }
+
+    .accordion-body p{
+        font-size: 1.5vh;
+    }
+
+    .faqs_info{
+        padding: 30px;
+    }
+
+    .faqs-info p{
+        font-size:1rem !important;
+    }
+
+    #info-contacto{
+        padding: 30px;
+    }
+
+
+    #info-whatsapp a{
+    background-color: rgb(25, 187, 25);
+    border-color: rgb(25, 187, 25);
+    color: white;
+    text-align: center;
+    }
+
+    .p_albercas{
+        padding: 0px 10px !important;
+    }
+
+}

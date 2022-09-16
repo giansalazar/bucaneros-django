@@ -1,0 +1,203 @@
+{% extends 'includes/base.html' %}
+
+{% load static %}
+
+{%block title%} Hotel Bucaneros Media Luna {% endblock %}
+
+{% block content %}
+
+
+<body>
+    <div class="home_albercas">
+
+        <h1 class="text_faqs">ALBERCAS</h1>
+    </div>
+
+    <div class="home_habitaciones">
+        <h1>Tipo de albercas</h1>
+        <p class="p_albercas">En el hotel Bucaneros contamos con diferentes tipos de alberca para poder crear los
+            mejores momentos dependiendo de la necesidad de nuestros clientes, es por ello que contamos con piscinas
+            tales como:</p>
+    </div>
+
+
+    <div class="swiper mySwiper">
+
+        <!-- Additional required wrapper -->
+        <div id="swiper-albercas" class="swiper-wrapper">
+            <!-- Slides -->
+            <div id="swiper-alberca" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/volleypool.webp' %}" class="card-img-top"
+                        alt="volleypool hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">VolleyPool</h5>
+                        <p class="card-text">Esta piscina cuenta con un gran tamaño y una red en medio para poder jugar
+                            volleyball acuatico, se les invita a participar trayendo..</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalVolleyPool" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="swiper-alberca" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/basketpool.webp' %}" class="card-img-top"
+                        alt="basketpool hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">BasketPool</h5>
+                        <p class="card-text">El hotel bucaneros cuenta con una alberca adicionada con un aro de
+                            basketball perfecto para poder crear partidos tan...</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalBasketPool" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="swiper-alberca" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/chapoteadero.webp' %}" class="card-img-top"
+                        alt="castillo chapoteadero hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Castillo Chapoteadero</h5>
+                        <p class="card-text">Y para tranquilidad de los adultos en el hotel bucaneros se encuentra una
+                            piscina ideal para los niños en donde ademas de...</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalChapoteadero" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="swiper-alberca" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/restpool.webp' %}" class="card-img-top"
+                        alt="restpool hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Restpool</h5>
+                        <p class="card-text">Esta piscina con asientos incorporados dentro del agua, permite tener
+                            comodidad al mismo tiempo que visión de otras...</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalRestPool" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+
+    </div>
+
+    <!-- Modal VP -->
+    <div class="modal modal-xl fade" id="modalVolleyPool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">VolleyPool</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/volleypool.webp' %}" alt="volleypool hotel bucaneros">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>VolleyPool</h1>
+                            <p class="card-text">Esta piscina cuenta con un gran tamaño y una red en medio para poder jugar volleyball acuatico, la participación de cuanta mas gente posible permitira disfrutar de este exotico deporte.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal modal-xl fade" id="modalBasketPool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">BasketPool</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/basketpool.webp' %}" alt="basketpool hotel bucaneros">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>BasketPool</h1>
+                            <p class="card-text">El hotel bucaneros cuenta con una alberca adicionada a un aro de basketball perfecto para poder crear partidos tan competitivamente divertidos como es posible.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Chapoteadero -->
+    <div class="modal modal-xl fade" id="modalChapoteadero" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Castillo Chapoteadero</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/chapoteadero.webp' %}" alt="castillo chapoteadero hotel bucaneros">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>Castillo Chapoteadero</h1>
+                            <p class="card-text">Y para tranquilidad de los adultos se encuentra una piscina ideal para los niños en donde ademas de una altura apropiada para su seguridad, cuenta con un castillo de resbaladillas en donde podrán llevar su imaginación a otro nivel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Restpool-->
+    <div class="modal modal-xl fade" id="modalRestPool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">RestPool</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/restpool.webp' %}" alt="restpool hotel bucaneros">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>RestPool</h1>
+                            <p class="card-text">Esta piscina con asientos incorporados dentro del agua permite tener una comodidad al mismo tiempo que visión de las otras piscinas para poder cuidar de la integridad de los familiares o amigos que lo acompañen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}
+
+{% block extrajs %}
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="{% static 'home/js/swiper.js' %}"></script>
+
+{% endblock %}

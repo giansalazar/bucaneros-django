@@ -1,0 +1,45 @@
+{% load static %}
+
+<nav class="navbar navbar-expand-lg bg-light m-0 container-fluid fixed-top">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="{% static 'home/img/bucaneros_logo.webp' %}" width="" height="50" alt="logo hotel bucaneros media luna"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/reservacion/">Reservación</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/faqs/">Preguntas frecuentes</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Areas
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/habitaciones/">Habitaciones</a></li>
+                      <li><a class="dropdown-item" href="/albercas/">Albercas</a></li>
+                      <li><a class="dropdown-item" href="/naturales/">Areas naturales</a></li>
+                       <li><a class="dropdown-item" href="/palapas/">Palapas y asadores</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mas Información
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/ubicacion/">Ubicación</a></li>
+                      <li><a class="dropdown-item" href="/contacto/">Contactanos</a></li>
+                      <li><a class="dropdown-item" href="/redes/">Redes Sociales</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>

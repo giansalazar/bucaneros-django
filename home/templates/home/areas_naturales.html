@@ -1,0 +1,197 @@
+{% extends 'includes/base.html' %}
+
+{% load static %}
+
+{%block title%} Hotel Bucaneros Media Luna {% endblock %}
+
+{% block content %}
+
+
+<body>
+    <div class="home_areas">
+
+        <h1 class="text_faqs">AREAS NATURALES</h1>
+    </div>
+
+    <div class="home_habitaciones">
+        <h1>Areas Naturales</h1>
+        <p class="p_albercas">Para sentirte mas cerca de la naturaleza, poder tomar increibles fotos y disfrutar del ambiente lo mas cercano posible, el hotel Bucaneros cuenta con áreas naturales como:</p>
+    </div>
+
+
+    <div class="swiper mySwiper">
+
+        <!-- Additional required wrapper -->
+        <div id="swiper-albercas" class="swiper-wrapper">
+            <!-- Slides -->
+            <div id="swiper-area" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/13.webp' %}" class="card-img-top"
+                        alt="lago bucanero">
+                    <div class="card-body">
+                        <h5 class="card-title">Lago Bucanero</h5>
+                        <p class="card-text">Este lago dedicado para los clientes valientes y atrevidos cuenta con viajes en barca para poder disfrutar de la naturaleza acuatica tanto...</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalVolleyPool" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="swiper-area" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/inflables.webp' %}" class="card-img-top"
+                        alt="naturaInflables hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">NaturaInflables</h5>
+                        <p class="card-text">Para disfrute de los pequeños el hotel cuenta con diversos inflables al aire libre para que ademas de diversión los niños puedan experimentar...</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalBasketPool" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="swiper-area" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/dentudo.webp' %}" class="card-img-top"
+                        alt="Picnic el dentudo hotel bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Picnic el dentudo</h5>
+                        <p class="card-text">Y para asegurar una experiencia placentera indepiente al clima pero sin alejarse de la naturaleza se cuenta con toldos en áreas naturales perfectas para...</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalChapoteadero" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="swiper-area" class="swiper-slide">
+                <div class="card" style="width: 20rem;">
+                    <img id="img-card-albercas" src="{% static 'home/img/mesa.webp' %}" class="card-img-top"
+                        alt="Mesa Palmar Hotel Bucaneros">
+                    <div class="card-body">
+                        <h5 class="card-title">Mesa Palmar</h5>
+                        <p class="card-text">Una hermosa vista, un buen asiento y un buen lugar para colocar su bebida mientras el mismo viento le dice que se merece la calma que esta sintiendo...</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalRestPool" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+
+    </div>
+
+    <!-- Modal VP -->
+    <div class="modal modal-xl fade" id="modalVolleyPool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Lago Bucanero</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/13.webp' %}" alt="lago bucanero">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>Lago Bucanero</h1>
+                            <p class="card-text">Este lago dedicado para los clientes valientes y atrevidos cuenta con viajes en barca para poder disfrutar de la naturaleza acuatica tanto como sea posible sintiendote uno con la profundidad del lago.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal modal-xl fade" id="modalBasketPool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">NaturaInflables/h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/inflables.webp' %}" alt="naturaInflables hotel bucaneros">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>NaturaInflables/h1>
+                            <p class="card-text">Para disfrute de los pequeños el hotel cuenta con diversos inflables al aire libre para que ademas de diversión los niños puedan experimentar una cercania con las áreas naturales que pueden ser apreciadas desde estos juegos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Chapoteadero -->
+    <div class="modal modal-xl fade" id="modalChapoteadero" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Picnic el dentudo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/dentudo.webp' %}" alt="Picnic dentudo hotel bucaneros">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>Picnic el dentudo</h1>
+                            <p class="card-text">Y para asegurar una experiencia placentera independiente al clima pero sin alejarse de la naturaleza se cuenta con toldos en áreas naturales perfectas para realizar un picnic ya sea con tu familia, amigos o con quien tu desees invitar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Restpool-->
+    <div class="modal modal-xl fade" id="modalRestPool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mesa Palmar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 img-home">
+                            <img src="{% static 'home/img/mesa.webp' %}" alt="Mesa Palmar Hotel Bucaneros">
+                        </div>
+            
+                        <div class="col-md-6 info-home">
+                            <h1>Mesa Palmar</h1>
+                            <p class="card-text">Una hermosa vista, un buen asiento y un buen lugar para colocar su bebida mientras el mismo viento le dice que se merece la calma que esta sintiendo, la perspectiva del lago y hasta una posible pesca si así lo desea.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}
+
+{% block extrajs %}
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="{% static 'home/js/swiper.js' %}"></script>
+
+{% endblock %}
